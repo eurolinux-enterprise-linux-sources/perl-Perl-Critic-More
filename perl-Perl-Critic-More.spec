@@ -1,6 +1,6 @@
 Name:           perl-Perl-Critic-More
 Version:        1.000
-Release:        8%{?dist}
+Release:        9%{?dist}
 Summary:        Supplemental policies for Perl::Critic
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -60,6 +60,9 @@ Perl::Critic core for a variety of reasons.
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.000-9
+- Mass rebuild 2013-12-27
+
 * Wed Oct 24 2012 Petr Pisar <ppisar@redhat.com> - 1.000-8
 - Modernize spec file
 
